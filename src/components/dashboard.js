@@ -29,7 +29,7 @@ class Dashboard extends Component {
     getWeather = async () => {
         const response = await fetch(
 
-            `http://api.openweathermap.org/data/2.5/weather?q=${this.state.location}&APPID=6027245dd9e3ed7e59452ca7123984c2`
+            `https://api.openweathermap.org/data/2.5/weather?q=${this.state.location}&APPID=6027245dd9e3ed7e59452ca7123984c2`
 
         )
 
